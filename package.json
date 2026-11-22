@@ -1,0 +1,24 @@
+{
+  "name": "npm-use",
+  "version": "1.0.0",
+  "description": "A Node.js use-case project for generating unique, cryptographically secure 16-digit references with random-16-digit.",
+  "type": "module",
+  "bin": {
+    "npm-use": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "random",
+    "reference",
+    "16-digit",
+    "secure"
+  ],
+  "author": "shivamsingh515",
+  "license": "MIT",
+  "dependencies": {
+    "random-16-digit": "^1.0.0"
+  }
+}
